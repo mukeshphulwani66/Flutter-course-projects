@@ -21,6 +21,7 @@ class _MyAppState extends State<MyApp> {
     '-',
     '-',
   ];
+  var winner = "";
   var currentplayer = 'X';
   void drawxo(i){
     if(grid[i] == '-'){
